@@ -182,7 +182,7 @@ defmodule GRPC.Adapter.Cowboy do
       )
 
     [
-      servers_name(endpoint, servers),
+      server_name,
       %{
         num_acceptors: num_acceptors,
         max_connections: max_connections,
